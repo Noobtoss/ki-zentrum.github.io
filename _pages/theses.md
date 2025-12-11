@@ -1,8 +1,8 @@
 ---
-title: "Join us!"
+title: "Open Theses"
 layout: page
 sitemap: false
-permalink: /join-us/
+permalink: /theses/
 ---
 
 Interested in working at our lab?

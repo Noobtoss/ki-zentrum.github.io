@@ -38,6 +38,15 @@ permalink: /team/
         {% if member.subject %}
         <p class="card-text"><i class="fa-solid fa-graduation-cap"></i> {{ member.subject }}</p>
         {% endif %}
+        {% if member.alias %}
+        <ul>
+        {% for page in site.pages %}
+          {% if page.url contains '/open-theses/' %}
+            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+        {% endif %}
         {% if member.project %}
         <p class="card-text"><i class="fa-solid fa-screwdriver-wrench"></i>
           {% for p in member.project %}

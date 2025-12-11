@@ -2,6 +2,7 @@
 title: "Thesis: LLM-based Dialog Modeling for Stuttering Therapy"
 layout: page
 sitemap: false
+advisor: riedhammer
 permalink: /open-theses/llm-dialog-stuttering
 ---
 
