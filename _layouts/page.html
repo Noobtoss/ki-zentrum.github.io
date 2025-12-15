@@ -6,6 +6,25 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
 
+    <!-- Display thesis level(s) -->
+    {% if page.level %}
+      <p class="level-info">
+        <strong>Level:</strong>
+        {% assign level_list = "" | split: "" %}
+        <!-- Check if level is an array (multivalued) -->
+        {% if page.level.first %}
+          <!-- Loop through level array -->
+          {% for item in page.level %}
+            {% assign level_list = level_list | push: item %}
+          {% endfor %}
+        {% else %}
+          <!-- Handle single level value -->
+          {% assign level_list = level_list | push: page.level %}
+        {% endif %}
+        {{ level_list | join: ", " }}
+      </p>
+    {% endif %}
+
     <!-- Display advisor(s) - supports both single value and array -->
     {% if page.advisor %}
       <p class="advisor-info">
@@ -55,6 +74,13 @@ layout: default
   </header>
 
   <div class="post-content">
+    <!-- Display page image as a clickable thumbnail if it exists -->
+    {% if page.image %}
+      <a href="{{ page.image | relative_url }}" target="_blank">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }} image" style="width: 300px; float: right; margin-left: 15px; margin-bottom: 15px;">
+      </a>
+    {% endif %}
+
     {{ content }}
   </div>
 
