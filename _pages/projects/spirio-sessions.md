@@ -1,8 +1,18 @@
 ---
+permalink: /research/spirio-sessions/
+name: Spirio Sessions
 title: "Spirio Sessions"
+start: 2020/06
+description: >
+  Can artificial intelligence collaborate with humans in creative
+  processes at the same level? What would this collaboration look like?
+  These complex questions form the basis for the research conducted by
+  academics at Nuremberg Tech and Nuremberg University of Music as part
+  of an interdisciplinary project funded by LEONARDO - Center for
+  Creativity and Innovation.
+image: /images/projects/spirio-sessions.jpg
 layout: page
 sitemap: false
-permalink: /research/spirio-sessions/
 ---
 
 Can artificial intelligence collaborate with humans in creative processes at the same level? 

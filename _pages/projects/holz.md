@@ -1,8 +1,14 @@
 ---
+permalink: /research/holz/
+name: Detection of Wood Rot using Machine Learning
 title: "Detection of Wood Rot using Machine Learning"
+start: 2023/11
+description: >
+  The aim of this project is to reduce the workload in sawmills by automatically
+  detecting wood rot on the cross-section of wooden logs using computer vision models.
+image: /images/projects/holz.jpg
 layout: page
 sitemap: false
-permalink: /research/holz/
 ---
 
 ## Project Goals

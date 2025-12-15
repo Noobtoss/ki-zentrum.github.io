@@ -1,8 +1,14 @@
 ---
+permalink: /research/radio/
+name: Spectrum Sensing
 title: "Spectrum Sensing"
+start: 2024/04
+description: >
+  This research project focuses on the development of an automatic classification
+  system for radio transmissions based on software defined radio (SDR) and machine learning.
+image: /images/projects/radio.png
 layout: page
 sitemap: false
-permalink: /research/radio/
 ---
 
 ## Project Description 

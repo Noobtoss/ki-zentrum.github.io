@@ -2,6 +2,7 @@
 title: "Thesis: The Systematic vs. Agentic Scientific Reviewer: Leveraging RAG for in-depth scientific paper reviews"
 layout: page
 sitemap: false
+advisor: riedhammerko
 permalink: /open-theses/llm-rag-reviewer
 ---
 

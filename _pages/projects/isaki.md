@@ -1,8 +1,18 @@
 ---
+permalink: /research/isaki/
+name: ISAKI
 title: "ISAKI"
+start: 2021/04
+end: 2023/12
+description: >
+  This project focuses on anomaly detection in critical infrastructures,
+  such as water supply networks. By integrating various data sources, the system
+  aims to improve situational awareness, enabling timely decision-making
+  and resilience against various external threats.
+  (Image: Adobe Stock / #201540971)
+image: /images/projects/isaki.jpeg
 layout: page
 sitemap: false
-permalink: /research/isaki/
 ---
 
 ## Project Description 

@@ -1,8 +1,14 @@
 ---
+permalink: /research/enom/
+name: ENOM
 title: "ENOM: Embedded Non-Obtrusive Monitoring of Voice and Speech Disorders"
+start: 2018/04
+end: 2022/12
+description: >
+  Detecting and classifying stutter-related disfluencies
+image: /images/projects/AdobeStock_574183420.jpeg
 layout: page
 sitemap: false
-permalink: /research/enom/
 ---
 
 ## Project Goals

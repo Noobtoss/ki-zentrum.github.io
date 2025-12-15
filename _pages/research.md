@@ -5,9 +5,22 @@ sitemap: false
 permalink: /research/
 ---
 
+{% assign current_projects = "" | split: "" %}
+{% assign past_projects = "" | split: "" %}
+{% for page in site.pages %}
+  {% if page.url contains '/research/' and page.url != '/research/' and page.name and page.start %}
+    {% if page.end %}
+      {% assign past_projects = past_projects | push: page %}
+    {% else %}
+      {% assign current_projects = current_projects | push: page %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 ## Current
 
-{% for p in site.data.projects_current %}
+{% assign sorted_current = current_projects | sort: "start" | reverse %}
+{% for p in sorted_current %}
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4 d-flex">
@@ -15,9 +28,9 @@ permalink: /research/
   	</div>
    	<div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title">{{p.name}} ({% if p.end %}{{p.start}} &mdash; {{p.end}}{% else %}since {{p.start}}{% endif %})</h3>
+        <h3 class="card-title">{{p.name}} (since {{p.start}})</h3>
         <p class="card-text">{{p.description}}</p>
-        <p><small><a href="{{p.url}}">Learn more...</a></small></p>
+        <p><small><a href="{{p.permalink}}">Learn more...</a></small></p>
       </div>
     </div>
   </div>
@@ -27,7 +40,8 @@ permalink: /research/
 
 ## Past
 
-{% for p in site.data.projects_past %}
+{% assign sorted_past = past_projects | sort: "start" | reverse %}
+{% for p in sorted_past %}
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4 d-flex">
@@ -35,13 +49,11 @@ permalink: /research/
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title">{{p.name}} ({% if p.end %}{{p.start}} &mdash; {{p.end}}{% else %}since {{p.start}}{% endif %})</h3>
+        <h3 class="card-title">{{p.name}} ({{p.start}} &mdash; {{p.end}})</h3>
         <p class="card-text">{{p.description}}</p>
-        <p><small><a href="{{p.url}}">Learn more...</a></small></p>
+        <p><small><a href="{{p.permalink}}">Learn more...</a></small></p>
       </div>
     </div>
   </div>
 </div>
 {% endfor %}
-
-

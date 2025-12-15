@@ -1,8 +1,15 @@
 ---
+permalink: /research/bess-ki/
+name: BESS-KI
 title: "BESS-KI"
+start: 2023/11
+end: 6/2025
+description: >
+  The aim of this project is to support the BESS, a language assessment test
+  for pre-school children, with methods of automatic speech and language processing.
+image: /images/projects/bess-ki.jpg
 layout: page
 sitemap: false
-permalink: /research/bess-ki/
 ---
 
 ## Background

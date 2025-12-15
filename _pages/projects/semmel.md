@@ -1,8 +1,14 @@
 ---
+permalink: /research/semmel/
+name: Semmeldetector
 title: "Semmeldetector"
+start: 2022/06
+description: >
+  The aim of the Semmeldetector is to increase resource efficiency in
+  commercial bakeries by automatically tracking unsold products using computer vision models.
+image: /images/projects/semmel.jpg
 layout: page
 sitemap: false
-permalink: /research/semmel/
 ---
 
 ## Project Goals

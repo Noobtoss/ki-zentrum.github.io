@@ -1,8 +1,15 @@
 ---
+permalink: /research/voice-trafo/
+name: Voice Transformation
 title: "Voice Transformation"
+start: 2021/06
+description: >
+  The aim of this project is to improve the intelligibility and naturalness of the
+  voices of laryngectomy patients based on whispered speech by leveraging the advances
+  made in the field of generative models.
+image: /images/projects/voice-trafo.png
 layout: page
 sitemap: false
-permalink: /research/voice-trafo/
 ---
 
 ## Motivation

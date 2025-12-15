@@ -1,8 +1,16 @@
+- name: SPEECHES
+  start: 01/2025
+  url: /research/speeches/
+  description: >
+    The SPEECHES project aims to develop an on-device speech analysis system for stuttering therapy,
+    enabling continuous monitoring and feedback while ensuring GDPR compliance through local data processing.
+  image: /images/projects/speeches.png
+
 - name: Spectrum Sensing
   start: 01/2024
   url: /research/radio/
   description: >
-    This research project focuses on the development of an automatic classification 
+    This research project focuses on the development of an automatic classification
     system for radio transmissions based on software defined radio (SDR) and machine learning.
   image: /images/projects/radio.png
 

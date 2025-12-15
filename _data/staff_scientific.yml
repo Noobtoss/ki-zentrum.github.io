@@ -1,5 +1,5 @@
 - name: Tobias Bocklet
-  alias: bocklet
+  alias: bockletto
   photo: bio-photo-bocklet.jpg
   info: Professor
   email: tobias.bocklet@th-nuernberg.de
@@ -7,7 +7,7 @@
   gscholar: yMCzBy0AAAAJ
 
 - name: Korbinian Riedhammer
-  alias: riedhammer
+  alias: riedhammerko
   photo: bio-photo-riedhammer.jpg
   info: Professor
   email: korbinian.riedhammer@th-nuernberg.de
@@ -18,6 +18,7 @@
   twitter: sikoried
 
 - name: Cristian Axenie
+  alias: axeniecr
   photo: bio-photo-axenie.jpg
   info: Professor
   email: cristian.axenie@th-nuernberg.de
@@ -28,14 +29,18 @@
   twitter: caxenie
   
 - name: Jens Albrecht
+  alias: albrechtje
   photo: bio-photo-albrecht.jpg
   info: Professor
+  subject: NLP, Conversational AI
   email: jens.albrecht@th-nuernberg.de
   orcid: 0000-0003-4070-1787
   gscholar: 3hIboOAAAAAJ
+  arxiv: albrecht_j_2
   linkedin: jens-albrecht
 
 - name: Ilja Baumann
+  alias: baumannil
   photo: bio-photo-baumann.jpg
   info: Research Scientist
   subject: speech processing
@@ -43,6 +48,7 @@
   email: ilja.baumann@th-nuernberg.de
 
 - name: Franziska Braun
+  alias: braunfr
   photo: bio-photo-braun.jpg
   info: Research Scientist
   subject: speech processing
@@ -52,6 +58,7 @@
   email: franziska.braun@th-nuernberg.de
 
 - name: Maximilian Bundscherer
+  alias: bundschererma
   photo: bio-photo-bundscherer.jpg
   info: Research Scientist
   subject: radio sensing
@@ -61,12 +68,14 @@
   email: maximilian.bundscherer@th-nuernberg.de
 
 - name: Natalie Engert
+  alias: engertna
   photo: bio-photo.jpg
   info: Research Scientist
   subject: speech processing
   email: natalie.engert@th-nuernberg.de
 
 - name: Steffen Freisinger
+  alias: freisingerst
   photo: bio-photo.jpg
   info: Research Scientist
   subject: natural language processing
@@ -75,6 +84,7 @@
   email: steffen.freisinger@th-nuernberg.de
 
 - name: Kashaf Gulzar
+  alias: gulzarka
   photo: bio-photo-gulzar.jpg
   info: Research Scientist
   subject: speech processing
@@ -83,6 +93,7 @@
   email: kashaf.gulzar@th-nuernberg.de
 
 - name: Thomas Ranzenberger
+  alias: ranzenbergerth
   photo: bio-photo-ranzenberger.jpg
   info: Research Scientist
   subject: speech recognition, mlops
@@ -90,7 +101,15 @@
   email: thomas.ranzenberger@th-nuernberg.de
   gscholar: cf2w7JEAAAAJ
 
+- name: Eric Rudolph
+  alias: rudolpher
+  photo: bio-photo.jpg
+  info: Research Scientist
+  subject: conversational AI, AI for social counseling
+  email: philipp.steigerwald@th-nuernberg.de
+
 - name: Thomas Schmitt
+  alias: schmittth
   photo: bio-photo-schmitt.jpg
   info: Research Scientist
   subject: computer vision
@@ -101,6 +120,7 @@
   email: thomas.schmitt@th-nuernberg.de
 
 - name: Philipp Seeberger
+  alias: seebergerph
   photo: bio-photo-seeberger.jpg
   info: Research Scientist
   subject: natural language processing
@@ -113,6 +133,7 @@
   email: philipp.seeberger@th-nuernberg.de
 
 - name: Christopher Simic
+  alias: simicch
   photo: bio-photo.jpg
   info: Research Scientist
   subject: audio-visual speech recognition
@@ -120,13 +141,24 @@
     - hans
   email: christopher.simic@th-nuernberg.de
 
+- name: Philipp Steigerwald
+  alias: steigerwaldph
+  photo: bio-photo.jpg
+  info: Research Scientist
+  subject: conversational AI, AI for social counseling
+  project:
+    - kia
+  email: philipp.steigerwald@th-nuernberg.de
+
 - name: Robert Goldbrich
+  alias: goldbrichro
   photo: bio-photo.jpg
   info: Research Scientist
   subject: speech processing
   email: robert.goldbrich@th-nuernberg.de
 
 - name: Dominik Wagner
+  alias: wagnerdo
   photo: bio-photo-wagner.jpg
   info: Research Scientist
   subject: speech recognition, gpu cluster admin

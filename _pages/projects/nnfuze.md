@@ -1,8 +1,15 @@
 ---
+permalink: /research/nnfuze/
+name: NNFuze
 title: "NNFuze"
+start: 2021/06
+description: >
+  This project focuses on memory and computational optimization of neural
+  networks for use on embedded systems and addresses the question of how
+  different neural networks can be replaced by or merged to create a single network.
+image: /images/projects/nnfuze.png
 layout: page
 sitemap: false
-permalink: /research/nnfuze/
 ---
 
 ## Project Description 

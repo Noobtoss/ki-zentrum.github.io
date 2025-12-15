@@ -1,8 +1,15 @@
 ---
+permalink: /research/dementia/
+name: Dementia Detection
 title: "Dementia Detection"
+start: 2021/07
+description: >
+  This project has two main goals: the investigation of (deep) speech markers
+  in machine learning for the assessment of dementia and the automatic speech-based
+  evaluation and digitization of cognitive tests.
+image: /images/projects/dementia.jpg
 layout: page
 sitemap: false
-permalink: /research/dementia/
 ---
 
 ## Motivation
