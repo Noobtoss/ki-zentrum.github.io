@@ -28,7 +28,7 @@ permalink: /research/
   	</div>
    	<div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title">{{p.name}} (since {{p.start}})</h3>
+        <h3 class="card-title">{{p.title}} (since {{p.start}})</h3>
         <p class="card-text">{{p.description}}</p>
         <p><small><a href="{{p.permalink}}">Learn more...</a></small></p>
       </div>
