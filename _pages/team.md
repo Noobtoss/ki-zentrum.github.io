@@ -48,16 +48,50 @@ permalink: /team/
         {% if member.alias %}
           {% assign thesis_count = 0 %}
           {% for page in site.pages %}
-            {% if page.url contains '/open-theses/' and page.advisor == member.alias %}
-              {% assign thesis_count = thesis_count | plus: 1 %}
+            {% if page.url contains '/open-theses/' %}
+              {% assign is_advisor = false %}
+              <!-- Check if member is listed as advisor in this thesis -->
+              {% if page.advisor %}
+                {% if page.advisor.first %}
+                  <!-- Advisor is an array -->
+                  {% if page.advisor contains member.alias %}
+                    {% assign is_advisor = true %}
+                  {% endif %}
+                {% else %}
+                  <!-- Advisor is a single value -->
+                  {% if page.advisor == member.alias %}
+                    {% assign is_advisor = true %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+              {% if is_advisor %}
+                {% assign thesis_count = thesis_count | plus: 1 %}
+              {% endif %}
             {% endif %}
           {% endfor %}
           {% if thesis_count > 0 %}
             <p class="card-text"><strong>Open thesis topics:</strong></p>
             <ul>
             {% for page in site.pages %}
-              {% if page.url contains '/open-theses/' and page.advisor == member.alias %}
-                <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+              {% if page.url contains '/open-theses/' %}
+                {% assign is_advisor = false %}
+                <!-- Check if member is listed as advisor in this thesis -->
+                {% if page.advisor %}
+                  {% if page.advisor.first %}
+                    <!-- Advisor is an array -->
+                    {% if page.advisor contains member.alias %}
+                      {% assign is_advisor = true %}
+                    {% endif %}
+                  {% else %}
+                    <!-- Advisor is a single value -->
+                    {% if page.advisor == member.alias %}
+                      {% assign is_advisor = true %}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+                {% if is_advisor %}
+                  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+                {% endif %}
               {% endif %}
             {% endfor %}
             </ul>
