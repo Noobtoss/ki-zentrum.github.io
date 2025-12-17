@@ -17,7 +17,7 @@ permalink: /research/
   {% endif %}
 {% endfor %}
 
-## Current
+## Current Projects
 
 {% assign sorted_current = current_projects | sort: "start" | reverse %}
 {% for p in sorted_current %}
@@ -38,7 +38,7 @@ permalink: /research/
 {% endfor %}
 
 
-## Past
+## Finished Projects
 
 {% assign sorted_past = past_projects | sort: "start" | reverse %}
 {% for p in sorted_past %}

@@ -2,7 +2,9 @@
 title: "Efficient Long-Term Memory Architectures for Locally Hosted Small Language Models (SLMs)"
 layout: page
 sitemap: false
-advisor: albrechtje
+advisor: 
+  - albrechtje
+  - steigerwaldph
 level:
   - Bachelor
   - Master
