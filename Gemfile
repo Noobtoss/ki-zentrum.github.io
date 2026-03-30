@@ -6,3 +6,4 @@ gem "jekyll-scholar", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick", group: :jekyll_plugins
 gem 'uri', '1.0.2'
+gem "forwardable", "1.3.2"
