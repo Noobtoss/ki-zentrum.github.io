@@ -1,5 +1,15 @@
 - name: Sebastian Bayerl
   photo: bio-photo.jpg
-  info: PhD student
+  info: Research Scientist
   link: https://www.th-rosenheim.de/die-hochschule/fakultaeten/fakultaet-fuer-informatik/prof-dr-sebastian-bayerl
   email: sebastian.bayerl@th-rosenheim.de
+- name: Dominik Wagner
+  alias: wagnerdo
+  photo: bio-photo-wagner.jpg
+  info: Research Scientist
+  subject: speech recognition, gpu cluster admin
+  project: 
+    - nnfuze
+    - voice-trafo
+  orcid: 0009-0006-7293-9131
+  gscholar: 0ouufoAAAAAJ
