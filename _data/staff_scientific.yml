@@ -83,6 +83,13 @@
     - ttz
   email: steffen.freisinger@th-nuernberg.de
 
+- name: Robert Goldbrich
+  alias: goldbrichro
+  photo: bio-photo.jpg
+  info: Research Scientist
+  subject: speech processing
+  email: robert.goldbrich@th-nuernberg.de
+
 - name: Kashaf Gulzar
   alias: gulzarka
   photo: bio-photo-gulzar.jpg
@@ -92,6 +99,13 @@
     - dementia
     - enom
   email: kashaf.gulzar@th-nuernberg.de
+
+- name: Mareike Müller
+  alias: muellerma
+  photo: bio-photo.jpg
+  info: Research Scientist
+  subject: automation of psychometric tests
+  email: mareike.mueller@th-nuernberg.de
 
 - name: Thomas Ranzenberger
   alias: ranzenbergerth
@@ -151,13 +165,6 @@
     - kia
   email: philipp.steigerwald@th-nuernberg.de
 
-- name: Robert Goldbrich
-  alias: goldbrichro
-  photo: bio-photo.jpg
-  info: Research Scientist
-  subject: speech processing
-  email: robert.goldbrich@th-nuernberg.de
-
 - name: Yannes Tallowitz
   alias: tallowitzya
   photo: bio-photo.jpg
@@ -165,14 +172,9 @@
   subject: secure and private computation
   email: yannes.tallowitz@th-nuernberg.de
 
-- name: Mareike Müller
-  alias: muellerma
-  info: Research Scientist
-  subject: automation of psychometric tests
-  email: mareike.mueller@th-nuernberg.de
-
 - name: Christopher Witzl
   alias: witzlch
+  photo: bio-photo.jpg
   info: Research Scientist
   subject: automatic speech recognition
   email: christopher.witzl@th-nuernberg.de
