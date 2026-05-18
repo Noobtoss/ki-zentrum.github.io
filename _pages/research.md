@@ -49,7 +49,7 @@ permalink: /research/
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title">{{p.name}} ({{p.start}} &mdash; {{p.end}})</h3>
+        <h3 class="card-title">{{p.title}} ({{p.start}} &mdash; {{p.end}})</h3>
         <p class="card-text">{{p.description}}</p>
         <p><small><a href="{{p.permalink}}">Learn more...</a></small></p>
       </div>
