@@ -3,7 +3,7 @@ permalink: /research/bess-ki/
 name: BESS-KI
 title: "BESS-KI"
 start: 2023/11
-end: 6/2025
+end: 2026/03
 description: >
   The aim of this project is to support the BESS, a language assessment test
   for pre-school children, with methods of automatic speech and language processing.
@@ -19,3 +19,5 @@ BESS consists of 4 tasks to test grammar and phonological awareness. The child's
 ## Goal
 The aim of this research project is to support the BESS with methods of automatic speech and language processing. The integration of AI can help to enable objective diagnoses of language development disorders in children.
 The evaluation takes place using audio recordings taking into account the respective test. The main requirement for this is a reliable speech recognition system that can process the variable speech of children.
+
+<img src="../../images/eu-funded.png" class="w-25" alt="Funded by the European Union NextGenerationEU">
